@@ -28,6 +28,8 @@ book   = fastitch.book("12302019.NASDAQ_ITCH50.gz", "AAPL", depth=5, every="1s")
 | Tool | Try it | What it does |
 |---|---|---|
 | [subwaytop](https://github.com/ArkaKhorchidian/subwaytop) | `uvx subwaytop` | Every NYC subway train, live, on a map in your terminal, plus departure boards and service alerts |
+| [isitthewifi](https://github.com/ArkaKhorchidian/isitthewifi) | `uvx isitthewifi` | Is it the Wi-Fi? Grades your connection A–F (lag under load, jitter, loss, DNS) and tells you in plain English whether it's your Wi-Fi, your router, your ISP or DNS |
+| [whotalks](https://github.com/ArkaKhorchidian/whotalks) | `uvx whotalks` | Who does your computer talk to? Watches every connection for a minute and groups them by company and app, with a privacy grade |
 | [slowrc](https://github.com/ArkaKhorchidian/slowrc) | `uvx slowrc` | Why does your terminal take so long to open? Profiles your `.zshrc` line by line and fixes the slow parts safely |
 | [loosekeys](https://github.com/ArkaKhorchidian/loosekeys) | `uvx loosekeys` | Finds API keys sitting in plain text on your laptop: shell history, forgotten `.env` files, AI tool & MCP configs. Masked output, nothing leaves your machine |
 | [shellwrapped](https://github.com/ArkaKhorchidian/shellwrapped) | `uvx shellwrapped` | Spotify Wrapped for your terminal: top commands, typos, 2am sessions, your shell personality |
