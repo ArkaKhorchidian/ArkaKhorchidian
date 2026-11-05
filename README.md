@@ -28,6 +28,9 @@ book   = fastitch.book("12302019.NASDAQ_ITCH50.gz", "AAPL", depth=5, every="1s")
 | Tool | Try it | What it does |
 |---|---|---|
 | [subwaytop](https://github.com/ArkaKhorchidian/subwaytop) | `uvx subwaytop` | Every NYC subway train, live, on a map in your terminal, plus departure boards and service alerts |
+| [zombieports](https://github.com/ArkaKhorchidian/zombieports) | `uvx zombieports` | What's running on port 3000? Every listening port, which project started it, how long it's been up, and one key to kill the forgotten ones |
+| [whoholdsup](https://github.com/ArkaKhorchidian/whoholdsup) | `uvx whoholdsup` | Who holds up your app? Reads your lockfile and shows how many dependencies are kept alive by one person, untouched for years, or recently changed hands |
+| [sketchydeps](https://github.com/ArkaKhorchidian/sketchydeps) | `uvx sketchydeps` | Is anything sketchy installed? Checks `node_modules` and your Python env for known malware, typosquats, brand-new packages and install-time code |
 | [isitthewifi](https://github.com/ArkaKhorchidian/isitthewifi) | `uvx isitthewifi` | Is it the Wi-Fi? Grades your connection A–F (lag under load, jitter, loss, DNS) and tells you in plain English whether it's your Wi-Fi, your router, your ISP or DNS |
 | [whotalks](https://github.com/ArkaKhorchidian/whotalks) | `uvx whotalks` | Who does your computer talk to? Watches every connection for a minute and groups them by company and app, with a privacy grade |
 | [slowrc](https://github.com/ArkaKhorchidian/slowrc) | `uvx slowrc` | Why does your terminal take so long to open? Profiles your `.zshrc` line by line and fixes the slow parts safely |
