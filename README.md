@@ -27,9 +27,13 @@ book   = fastitch.book("12302019.NASDAQ_ITCH50.gz", "AAPL", depth=5, every="1s")
 
 | Tool | Try it | What it does |
 |---|---|---|
+| [subwaytop](https://github.com/ArkaKhorchidian/subwaytop) | `uvx subwaytop` | Every NYC subway train, live, on a map in your terminal, plus departure boards and service alerts |
+| [slowrc](https://github.com/ArkaKhorchidian/slowrc) | `uvx slowrc` | Why does your terminal take so long to open? Profiles your `.zshrc` line by line and fixes the slow parts safely |
 | [loosekeys](https://github.com/ArkaKhorchidian/loosekeys) | `uvx loosekeys` | Finds API keys sitting in plain text on your laptop: shell history, forgotten `.env` files, AI tool & MCP configs. Masked output, nothing leaves your machine |
 | [shellwrapped](https://github.com/ArkaKhorchidian/shellwrapped) | `uvx shellwrapped` | Spotify Wrapped for your terminal: top commands, typos, 2am sessions, your shell personality |
 | [codewrapped](https://github.com/ArkaKhorchidian/codewrapped) | `uvx codewrapped ~/code` | Spotify Wrapped for your code, across every git repo on your machine, private ones included |
+
+<a href="https://github.com/ArkaKhorchidian/subwaytop"><img src="https://raw.githubusercontent.com/ArkaKhorchidian/subwaytop/main/docs/hero.gif" alt="subwaytop: live NYC subway map in the terminal" width="720"></a>
 
 <p>
   <a href="https://github.com/ArkaKhorchidian/shellwrapped"><img src="https://raw.githubusercontent.com/ArkaKhorchidian/shellwrapped/main/docs/card.png" alt="shellwrapped share card" width="400"></a>
