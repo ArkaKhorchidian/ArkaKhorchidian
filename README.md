@@ -1,6 +1,6 @@
 ### Hi, I'm Arka 👋
 
-I build fast systems for markets and networks: **C++ trading infrastructure**, **quant research tooling**, and **telecom / broadband data pipelines**.
+I build fast systems for markets and networks: **C++ trading infrastructure**, **quant research tooling**, **telecom / broadband data pipelines**, and **open-source developer tools** you can run in one command.
 MS Electrical Engineering @ Columbia (ML + internet systems) · building broadband planning infrastructure at Wireless 20|20 · co-founder of [Crowded](https://crowded.nyc).
 
 ---
@@ -20,6 +20,21 @@ import fastitch
 frames = fastitch.read("12302019.NASDAQ_ITCH50.gz", types="orders", symbols=["AAPL"])
 book   = fastitch.book("12302019.NASDAQ_ITCH50.gz", "AAPL", depth=5, every="1s")
 ```
+
+---
+
+### 🧰 Developer tools
+
+| Tool | Try it | What it does |
+|---|---|---|
+| [loosekeys](https://github.com/ArkaKhorchidian/loosekeys) | `uvx loosekeys` | Finds API keys sitting in plain text on your laptop: shell history, forgotten `.env` files, AI tool & MCP configs. Masked output, nothing leaves your machine |
+| [shellwrapped](https://github.com/ArkaKhorchidian/shellwrapped) | `uvx shellwrapped` | Spotify Wrapped for your terminal: top commands, typos, 2am sessions, your shell personality |
+| [codewrapped](https://github.com/ArkaKhorchidian/codewrapped) | `uvx codewrapped ~/code` | Spotify Wrapped for your code, across every git repo on your machine, private ones included |
+
+<p>
+  <a href="https://github.com/ArkaKhorchidian/shellwrapped"><img src="https://raw.githubusercontent.com/ArkaKhorchidian/shellwrapped/main/docs/card.png" alt="shellwrapped share card" width="400"></a>
+  <a href="https://github.com/ArkaKhorchidian/codewrapped"><img src="https://raw.githubusercontent.com/ArkaKhorchidian/codewrapped/main/docs/card.png" alt="codewrapped share card" width="400"></a>
+</p>
 
 ---
 
