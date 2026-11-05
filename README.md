@@ -5,14 +5,20 @@ MS Electrical Engineering @ Columbia (ML + internet systems) · building broadba
 
 ---
 
+### 📊 Featured: [booktop](https://github.com/ArkaKhorchidian/booktop)
+
+**A live order book in your terminal, like `htop` for markets.** `uvx booktop` streams the real BTC-USD book from Coinbase: depth ladder, trade tape, imbalance and flow. No key, no setup. It also replays any stock from a NASDAQ ITCH day.
+
+<a href="https://github.com/ArkaKhorchidian/booktop"><img src="https://raw.githubusercontent.com/ArkaKhorchidian/booktop/main/docs/hero.gif" alt="booktop streaming the live BTC-USD order book" width="720"></a>
+
 ### ⚡ Featured: [fastitch](https://github.com/ArkaKhorchidian/fastitch)
 
-**NASDAQ TotalView-ITCH 5.0 → Polars / pandas / Parquet, at native speed.** One `pip install`, all 23 message types, streaming in constant memory, plus order-book reconstruction.
+**NASDAQ TotalView-ITCH 5.0 → Polars / pandas / Parquet, at native speed.** One `pip install`, all 23 message types, streaming in constant memory, plus order-book reconstruction. 51x faster than existing Python parsers on real NASDAQ data.
 
 ```python
 import fastitch
-frames = fastitch.read("01302019.NASDAQ_ITCH50.gz", types="orders", symbols=["AAPL"])
-book   = fastitch.book("01302019.NASDAQ_ITCH50.gz", "AAPL", depth=5, every="1s")
+frames = fastitch.read("12302019.NASDAQ_ITCH50.gz", types="orders", symbols=["AAPL"])
+book   = fastitch.book("12302019.NASDAQ_ITCH50.gz", "AAPL", depth=5, every="1s")
 ```
 
 ---
