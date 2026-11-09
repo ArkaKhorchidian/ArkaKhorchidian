@@ -56,6 +56,8 @@ book   = fastitch.book("12302019.NASDAQ_ITCH50.gz", "AAPL", depth=5, every="1s")
 | [Latency Benchmarking Harness](https://github.com/ArkaKhorchidian/Latency-Benchmarking-Harness) | RDTSC cycle counting: caches, syscalls, atomics, branch misprediction |
 | [ITCH 5.0 Parser & Replay](https://github.com/ArkaKhorchidian/ITCH-5.0-Full-Parser-NASDAQ-Historical-Replay) | Book reconstruction + microstructure analytics on real NASDAQ data |
 | [FIX 4.2 Parser & Order Router](https://github.com/ArkaKhorchidian/FIX-Protocol-Parser-Order-Router) | Stream parser, session state machine, smart order routing |
+| [Pre-Trade Risk Gateway](https://github.com/ArkaKhorchidian/Pre-Trade-Risk-Gateway) | Sub-µs risk checks in front of the router: price collars, fat-finger, worst-case position, throttling, self-trade prevention, kill switch |
+| [OUCH 5.0 Client & Exchange Simulator](https://github.com/ArkaKhorchidian/OUCH-Order-Entry-Client-Simulator) | NASDAQ binary order entry over SoupBinTCP, gap-free reconnect, price-time matching simulator |
 | [Multicast Market Data Analyzer](https://github.com/ArkaKhorchidian/Market-Data-Multicast-Analyzer) | UDP feed timing, gap detection, pcap replay |
 
 ### 📈 Quant research (Python)
