@@ -25,24 +25,41 @@ book   = fastitch.book("12302019.NASDAQ_ITCH50.gz", "AAPL", depth=5, every="1s")
 
 ### 🧰 Developer tools
 
+**🤖 AI coding agents**
+
 | Tool | Try it | What it does |
 |---|---|---|
-| [subwaytop](https://github.com/ArkaKhorchidian/subwaytop) | `uvx subwaytop` | Every NYC subway train, live, on a map in your terminal, plus departure boards and service alerts |
-| [zombieports](https://github.com/ArkaKhorchidian/zombieports) | `uvx zombieports` | What's running on port 3000? Every listening port, which project started it, how long it's been up, and one key to kill the forgotten ones |
-| [whoholdsup](https://github.com/ArkaKhorchidian/whoholdsup) | `uvx whoholdsup` | Who holds up your app? Reads your lockfile and shows how many dependencies are kept alive by one person, untouched for years, or recently changed hands |
-| [sketchydeps](https://github.com/ArkaKhorchidian/sketchydeps) | `uvx sketchydeps` | Is anything sketchy installed? Checks `node_modules` and your Python env for known malware, typosquats, brand-new packages and install-time code |
 | [aishare](https://github.com/ArkaKhorchidian/aishare) | `uvx aishare` | How much of the code you shipped did AI write? Reads Claude Code, Codex and Gemini CLI logs plus git blame, by month and by repo |
 | [agentsnitch](https://github.com/ArkaKhorchidian/agentsnitch) | `uvx agentsnitch` | What did your AI coding agents actually do? Every risky command, secret read, force push and file touched outside the project |
 | [agentwrapped](https://github.com/ArkaKhorchidian/agentwrapped) | `uvx agentwrapped` | Spotify Wrapped for your AI coding agents: prompts, tokens, streaks, your persona and a shareable card |
 | [modelhog](https://github.com/ArkaKhorchidian/modelhog) | `uvx modelhog` | Find the AI models (Hugging Face, Ollama, LM Studio) and dev caches eating your disk, and delete the ones you pick |
+
+**🔒 Privacy & security**
+
+| Tool | Try it | What it does |
+|---|---|---|
 | [gitreveal](https://github.com/ArkaKhorchidian/gitreveal) | `uvx gitreveal` | What does your git history give away? Your emails, employer, time zone, trips and laptop name, and how to stop it |
-| [whatsonmywifi](https://github.com/ArkaKhorchidian/whatsonmywifi) | `uvx whatsonmywifi` | Every device on your WiFi, what it is, and what it gives away: owners' names, open cameras, telnet, UPnP |
-| [starcheck](https://github.com/ArkaKhorchidian/starcheck) | `uvx starcheck owner/repo` | Are a repo's GitHub stars real? Spots bought stars: empty throwaway accounts arriving in bursts and batches |
-| [throttlecheck](https://github.com/ArkaKhorchidian/throttlecheck) | `uvx throttlecheck` | Is your ISP slowing down Netflix or video? Downloads from Netflix's servers, a video stream and big CDNs next to a neutral control |
-| [isitthewifi](https://github.com/ArkaKhorchidian/isitthewifi) | `uvx isitthewifi` | Is it the Wi-Fi? Grades your connection A–F (lag under load, jitter, loss, DNS) and tells you in plain English whether it's your Wi-Fi, your router, your ISP or DNS |
-| [whotalks](https://github.com/ArkaKhorchidian/whotalks) | `uvx whotalks` | Who does your computer talk to? Watches every connection for a minute and groups them by company and app, with a privacy grade |
-| [slowrc](https://github.com/ArkaKhorchidian/slowrc) | `uvx slowrc` | Why does your terminal take so long to open? Profiles your `.zshrc` line by line and fixes the slow parts safely |
 | [loosekeys](https://github.com/ArkaKhorchidian/loosekeys) | `uvx loosekeys` | Finds API keys sitting in plain text on your laptop: shell history, forgotten `.env` files, AI tool & MCP configs. Masked output, nothing leaves your machine |
+| [sketchydeps](https://github.com/ArkaKhorchidian/sketchydeps) | `uvx sketchydeps` | Is anything sketchy installed? Checks `node_modules` and your Python env for known malware, typosquats, brand-new packages and install-time code |
+| [whoholdsup](https://github.com/ArkaKhorchidian/whoholdsup) | `uvx whoholdsup` | Who holds up your app? Reads your lockfile and shows how many dependencies are kept alive by one person, untouched for years, or recently changed hands |
+| [starcheck](https://github.com/ArkaKhorchidian/starcheck) | `uvx starcheck owner/repo` | Are a repo's GitHub stars real? Spots bought stars: empty throwaway accounts arriving in bursts and batches |
+| [whotalks](https://github.com/ArkaKhorchidian/whotalks) | `uvx whotalks` | Who does your computer talk to? Watches every connection for a minute and groups them by company and app, with a privacy grade |
+
+**📶 Your network**
+
+| Tool | Try it | What it does |
+|---|---|---|
+| [isitthewifi](https://github.com/ArkaKhorchidian/isitthewifi) | `uvx isitthewifi` | Is it the Wi-Fi? Grades your connection A–F (lag under load, jitter, loss, DNS) and tells you in plain English whether it's your Wi-Fi, your router, your ISP or DNS |
+| [throttlecheck](https://github.com/ArkaKhorchidian/throttlecheck) | `uvx throttlecheck` | Is your ISP slowing down Netflix or video? Downloads from Netflix's servers, a video stream and big CDNs next to a neutral control |
+| [whatsonmywifi](https://github.com/ArkaKhorchidian/whatsonmywifi) | `uvx whatsonmywifi` | Every device on your WiFi, what it is, and what it gives away: owners' names, open cameras, telnet, UPnP |
+
+**🖥️ Terminal & workflow**
+
+| Tool | Try it | What it does |
+|---|---|---|
+| [subwaytop](https://github.com/ArkaKhorchidian/subwaytop) | `uvx subwaytop` | Every NYC subway train, live, on a map in your terminal, plus departure boards and service alerts |
+| [zombieports](https://github.com/ArkaKhorchidian/zombieports) | `uvx zombieports` | What's running on port 3000? Every listening port, which project started it, how long it's been up, and one key to kill the forgotten ones |
+| [slowrc](https://github.com/ArkaKhorchidian/slowrc) | `uvx slowrc` | Why does your terminal take so long to open? Profiles your `.zshrc` line by line and fixes the slow parts safely |
 | [shellwrapped](https://github.com/ArkaKhorchidian/shellwrapped) | `uvx shellwrapped` | Spotify Wrapped for your terminal: top commands, typos, 2am sessions, your shell personality |
 | [codewrapped](https://github.com/ArkaKhorchidian/codewrapped) | `uvx codewrapped ~/code` | Spotify Wrapped for your code, across every git repo on your machine, private ones included |
 
