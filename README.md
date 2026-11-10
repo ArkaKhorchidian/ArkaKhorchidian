@@ -37,6 +37,8 @@ book   = fastitch.book("12302019.NASDAQ_ITCH50.gz", "AAPL", depth=5, every="1s")
 | [modelhog](https://github.com/ArkaKhorchidian/modelhog) | `uvx modelhog` | Find the AI models (Hugging Face, Ollama, LM Studio) and dev caches eating your disk, and delete the ones you pick |
 | [gitreveal](https://github.com/ArkaKhorchidian/gitreveal) | `uvx gitreveal` | What does your git history give away? Your emails, employer, time zone, trips and laptop name, and how to stop it |
 | [whatsonmywifi](https://github.com/ArkaKhorchidian/whatsonmywifi) | `uvx whatsonmywifi` | Every device on your WiFi, what it is, and what it gives away: owners' names, open cameras, telnet, UPnP |
+| [starcheck](https://github.com/ArkaKhorchidian/starcheck) | `uvx starcheck owner/repo` | Are a repo's GitHub stars real? Spots bought stars: empty throwaway accounts arriving in bursts and batches |
+| [throttlecheck](https://github.com/ArkaKhorchidian/throttlecheck) | `uvx throttlecheck` | Is your ISP slowing down Netflix or video? Downloads from Netflix's servers, a video stream and big CDNs next to a neutral control |
 | [isitthewifi](https://github.com/ArkaKhorchidian/isitthewifi) | `uvx isitthewifi` | Is it the Wi-Fi? Grades your connection A–F (lag under load, jitter, loss, DNS) and tells you in plain English whether it's your Wi-Fi, your router, your ISP or DNS |
 | [whotalks](https://github.com/ArkaKhorchidian/whotalks) | `uvx whotalks` | Who does your computer talk to? Watches every connection for a minute and groups them by company and app, with a privacy grade |
 | [slowrc](https://github.com/ArkaKhorchidian/slowrc) | `uvx slowrc` | Why does your terminal take so long to open? Profiles your `.zshrc` line by line and fixes the slow parts safely |
